@@ -1,7 +1,7 @@
 @import url("../common/reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
-* {font-family:'Noto Sans KR',sans-serif;outline:none;color: #000000;letter-spacing: -0.04em;}
+* {font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
 
 .evt_skyedu_7343 > div{overflow: hidden;}
 .inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
@@ -47,3 +47,19 @@ ul:after{content: "";display: block;clear: both;}
 .sect03 .cont_agree ul li:after{position: absolute;top: 2px;left: 0;content: '';display: block;width: 1px;height: 14px;background: #6B6B6B;}
 .sect03 .cont_agree ul li:first-child:after{display: none;}
 .sect03 .cont_agree ul li input[type="checkbox"]{width: 14px;height: 14px;vertical-align: middle;}
+
+.sect04{background: #1E1534;padding: 100px 0;}
+.sect04 ul li{margin-bottom: 30px}
+.sect04 ul li.cont_group{position: relative;}
+.sect04 ul li.cont_group .img_group{position: absolute;top: -40px;left: 70px;}
+.sect04 ul li:last-child{margin-bottom: 0;}
+
+.sect05{padding: 100px 0 80px;}
+.sect05 h4{margin-bottom: 50px}
+.sect05 ul li{width: 586px;height: 387px;border: 1px solid #CFCFCF;border-radius: 10px;position: relative;display: inline-block;margin: 0 20px 20px 0;}
+.sect05 ul li:nth-child(even){margin-right: 0;}
+.sect05 ul li:nth-child(n+3){margin-bottom: 0;}
+.sect05 ul li > div{position: absolute;top: 40px;left: 40px;}
+.sect05 ul li img{float: left;}
+.sect05 ul li .txt_note{font-size: 18px;line-height: 1.6em;color: #000000;float: left;text-align: left;display: inline-block;margin: 40px 0 30px;}
+.sect05 ul li .txt_user{font-size: 18px;line-height: 1.6em;color: #6A6A6A;float: left;text-align: left;display: inline-block;}

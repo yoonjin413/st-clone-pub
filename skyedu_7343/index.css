@@ -1,0 +1,43 @@
+@import url("../common/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {font-family:'Noto Sans KR',sans-serif;outline:none;color: #000000;letter-spacing: -0.04em;}
+
+.evt_skyedu_7343 > div{overflow: hidden;}
+.inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
+
+ul:after{content: "";display: block;clear: both;}
+
+.t-left{text-align: left;}
+.t-center{text-align: center;}
+.t-right{text-align: right;}
+
+.fl-left{float: left;}
+.fl-right{float: right;}
+
+.fw-weight{font-weight: bold;}
+.fw-normal{font-weight: normal;}
+
+.sect01{background: #019C6F;padding: 60px 0 35px;}
+.sect01 .inner{width: 1300px;}
+
+.sect02{background: #019C6F;padding: 40px 0 80px;}
+.sect02 .cont_cls{margin-bottom: 58px;}
+.sect02 .cont_cls:last-child{margin-bottom: 0;}
+.sect02 .cont_cls .txt_tit{font-size: 30px;margin-bottom: 22px;}
+.sect02 .cont_cls ul li{height: 98px;background: #FFFFFF;display: flex;align-items: center;border-bottom: 1px dashed #DCDCDC;}
+.sect02 .cont_cls ul li:last-child{border-bottom: 0;}
+.sect02 .cont_cls ul li .txt_campus{width: 147px;margin-left: 36px;font-size: 20px;}
+.sect02 .cont_cls ul li span{background: #FFE500;padding: 12px 24px;margin-right: 8px;border-radius: 32px;font-size: 16px;}
+.sect02 .cont_cls ul li span:last-child{margin-right: 0;}
+
+.sect03{padding: 80px 0 116px;}
+.sect03 .inner{width: 1000px;}
+.sect03 h4{font-size: 24px;margin: 20px 0 59px;}
+.sect03 .cont_rsv{display: flex;align-items: center;}
+.sect03 .cont_rsv > div{position: relative;margin-right: 8px;}
+.sect03 .cont_rsv .cont_sel::before{content: "";position: absolute;top: 40%;right: 16px;border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 9px solid #222222;}
+.sect03 .cont_rsv .cont_num > *{width: 96px;}
+.sect03 .cont_rsv > div > *{width: 254px;height: 50px;border: 1px solid #000000;appearance: none;padding-left: 24px;font-size: 14px;}
+.sect03 .cont_rsv > div > input{width: 46px !important;height: 48px;padding: 0 23px;}
+.sect03 .cont_rsv .btn_rsv{background: #000000;color: #FFFFFF;font-size: 16.5px;padding: 16px 19px;}

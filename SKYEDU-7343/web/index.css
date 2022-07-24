@@ -4,7 +4,7 @@
 
 * {font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
 
-.evt_skyedu_7343 > div{overflow: hidden;}
+body > div{overflow: hidden;}
 .inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
 
 ul:after{content: "";display: block;clear: both;}

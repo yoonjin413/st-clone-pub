@@ -1,0 +1,20 @@
+@import url("../../common/web/reset.css");
+@import url("../../common/web/app.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+* {font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
+
+body > div{overflow: hidden;}
+.inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
+
+ul:after{content: "";display: block;clear: both;}
+
+.sect01{height: 800px;padding: 109px 0 93px;background: #0B0C0C url("./img/sect01_bg.png") no-repeat center 0;}
+.sect01 .txt_msg{margin: 55px 0 28px;font-family: 'Noto Serif KR',sans-serif;font-size: 16px;line-height: 1.6em;color: #CBCBCB;}
+.sect01 .txt_wish{font-size: 30px;line-height: 1.5em;color: #FFFFFF;}
+.sect01 .txt_from{margin-top: 46px;font-size: 12px;color: #FFFFFF;display: block;}
+
+.sect02{height: 1463px;padding: 120px 0 151px;background: #000000 url("./img/sect02_bg.png") no-repeat center 0;}
+.sect02 h4{font-size: 100px;color: #F0F0F0;mix-blend-mode: normal;opacity: .35;}
+.sect02 p{margin: 75px 0 35px;font-size: 40px;color: #FFFFFF;}
+.sect02 .inner > div{display: none;}

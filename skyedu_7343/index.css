@@ -1,4 +1,5 @@
 @import url("../common/reset.css");
+@import url("../common/app.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
@@ -8,15 +9,18 @@
 
 ul:after{content: "";display: block;clear: both;}
 
-.t-left{text-align: left;}
-.t-center{text-align: center;}
-.t-right{text-align: right;}
-
-.fl-left{float: left;}
-.fl-right{float: right;}
-
-.fw-weight{font-weight: bold;}
-.fw-normal{font-weight: normal;}
+.sect_ban{position: fixed;top: 180px;right: 20px;z-index: 999;}
+.sect_ban ul li{width: 168px;height: auto;background: #FCFBFC;border: 4px solid #1E1534;margin-bottom: 6px;position: relative;}
+.sect_ban ul li:last-child{margin-bottom: 0;}
+.sect_ban ul .cont_aca p{margin: 20px 20px;font-size: 16px;line-height: 1.5em;}
+.sect_ban ul .cont_aca p strong{display: block;}
+.sect_ban ul .cont_more p{margin: 16px 20px;font-size: 14px;line-height: 1.5em;}
+.sect_ban ul .cont_more p:not(:first-of-type){padding-top: 16px;margin-top: 0; border-top: 1px solid #E8E9ED;}
+.sect_ban ul .cont_more p > *{display: block;}
+.sect_ban ul .cont_more p > strong{font-size: 16px;margin-top: 6px;}
+.sect_ban ul .cont_more p > span{color: #757575;margin-top: 30px;cursor: pointer;}
+.sect_ban ul li .btn_link{height: 54px;background: #1E1534;color: #FFFFFF;padding: 0 22px 0 20px;display: flex;align-items: center;flex-wrap: nowrap;justify-content: space-between;}
+.sect_ban ul li .btn_link i{color: #FFFFFF;}
 
 .sect01{background: #019C6F;padding: 60px 0 35px;}
 .sect01 .inner{width: 1300px;}
@@ -34,13 +38,13 @@ ul:after{content: "";display: block;clear: both;}
 .sect03{padding: 80px 0 116px;}
 .sect03 .inner{width: 1000px;}
 .sect03 h4{font-size: 24px;margin: 20px 0 59px;}
-.sect03 .cont_rsv{display: flex;align-items: center;}
+.sect03 .cont_rsv{display: flex;align-items: center;justify-content: center;}
 .sect03 .cont_rsv > div{position: relative;margin-right: 8px;}
 .sect03 .cont_rsv .cont_sel::before{content: "";position: absolute;top: 40%;right: 16px;border-left: 6px solid transparent;border-right: 6px solid transparent;border-top: 9px solid #222222;}
 .sect03 .cont_rsv .cont_num > *{width: 96px;}
 .sect03 .cont_rsv > div > *{width: 254px;height: 50px;border: 1px solid #000000;appearance: none;padding-left: 24px;font-size: 14px;}
-.sect03 .cont_rsv > div > input{width: 46px !important;height: 48px;padding: 0 23px;}
-.sect03 .cont_rsv .btn_rsv{background: #000000;color: #FFFFFF;font-size: 16.5px;padding: 16px 19px;}
+.sect03 .cont_rsv > div > input{width: 94px !important;height: 48px;padding: 0 23px;}
+.sect03 .cont_rsv .btn_rsv{background: #000000;color: #FFFFFF;font-size: 16px;padding: 16px 19px;}
 .sect03 .cont_agree{margin-top: 18px;}
 .sect03 .cont_agree ul li{position: relative;float: left;padding: 0 14px;color: #6B6B6B;font-size: 14px;}
 .sect03 .cont_agree ul li:last-child{padding-right: 0;cursor: pointer;}
@@ -55,11 +59,16 @@ ul:after{content: "";display: block;clear: both;}
 .sect04 ul li:last-child{margin-bottom: 0;}
 
 .sect05{padding: 100px 0 80px;}
-.sect05 h4{margin-bottom: 50px}
-.sect05 ul li{width: 586px;height: 387px;border: 1px solid #CFCFCF;border-radius: 10px;position: relative;display: inline-block;margin: 0 20px 20px 0;}
+.sect05 ul{overflow: hidden;margin: 50px 0;}
+.sect05 ul li{width: 586px;height: 387px;border: 1px solid #CFCFCF;border-radius: 10px;position: relative;float: left;margin: 0 20px 20px 0;}
 .sect05 ul li:nth-child(even){margin-right: 0;}
 .sect05 ul li:nth-child(n+3){margin-bottom: 0;}
 .sect05 ul li > div{position: absolute;top: 40px;left: 40px;}
 .sect05 ul li img{float: left;}
 .sect05 ul li .txt_note{font-size: 18px;line-height: 1.6em;color: #000000;float: left;text-align: left;display: inline-block;margin: 40px 0 30px;}
+.sect05 ul li:last-child .txt_note{margin-bottom: 59px;}
 .sect05 ul li .txt_user{font-size: 18px;line-height: 1.6em;color: #6A6A6A;float: left;text-align: left;display: inline-block;}
+.sect05 .btn_review{width: 400px;height: 60px;background: #019C6F;color: #FFFFFF;font-weight: 900;font-size: 20px;line-height: 1.4em;border-radius: 100px;padding: 26px 131px;}
+
+.sect06{padding: 100px 0;}
+.sect06 .inner{width: 948px;}

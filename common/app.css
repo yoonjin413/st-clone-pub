@@ -1,0 +1,12 @@
+/* text-align */
+.t-left{text-align: left;}
+.t-center{text-align: center;}
+.t-right{text-align: right;}
+
+/* float */
+.fl-left{float: left;}
+.fl-right{float: right;}
+
+/* font-weight */
+.fw-weight{font-weight: bold;}
+.fw-normal{font-weight: normal;}

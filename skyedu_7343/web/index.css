@@ -1,5 +1,5 @@
-@import url("../common/reset.css");
-@import url("../common/app.css");
+@import url("../../common/web/reset.css");
+@import url("../../common/web/app.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 * {font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
@@ -59,7 +59,7 @@ ul:after{content: "";display: block;clear: both;}
 .sect04 ul li:last-child{margin-bottom: 0;}
 
 .sect05{padding: 100px 0 80px;}
-.sect05 ul{overflow: hidden;margin: 50px 0;}
+.sect05 ul{margin: 50px 0;}
 .sect05 ul li{width: 586px;height: 387px;border: 1px solid #CFCFCF;border-radius: 10px;position: relative;float: left;margin: 0 20px 20px 0;}
 .sect05 ul li:nth-child(even){margin-right: 0;}
 .sect05 ul li:nth-child(n+3){margin-bottom: 0;}
@@ -71,4 +71,17 @@ ul:after{content: "";display: block;clear: both;}
 .sect05 .btn_review{width: 400px;height: 60px;background: #019C6F;color: #FFFFFF;font-weight: 900;font-size: 20px;line-height: 1.4em;border-radius: 100px;padding: 26px 131px;}
 
 .sect06{padding: 100px 0;}
-.sect06 .inner{width: 948px;}
+.sect06 .inner{width: 950px;}
+.sect06 .cont_rec{margin-top: 50px;}
+.sect06 .cont_rec ul li{width: 234px;margin-right: 4px;border: 1px solid #494949;}
+.sect06 .cont_rec ul li:last-child{margin-right: 0;}
+.sect06 ul li .cont_info{padding: 32px 15px;width: -webkit-fill-available;}
+.sect06 ul li .cont_info .txt_note{top: 5px;right: 5px;color: #FFFFFF;font-size: 11px;line-height: 1.3em;}
+.sect06 ul li .cont_info .cont_tri{top: 0;right: 0;border-top: 75px solid #000000;border-left: 75px solid transparent;}
+.sect06 ul li .cont_info .txt_campus{font-size: 22px;font-weight: bold;}
+.sect06 ul li .cont_info .txt_campus span{font-size: 14px;}
+.sect06 ul li .txt_info{margin: 10px 0;font-size: 12px;line-height: 1.5em;}
+.sect06 ul li .txt_date{line-height: 1.5em;margin-bottom: 10px;}
+.sect06 ul li .cont_btn .btn_aca{margin-bottom: 5px;display: flex;justify-content: center;align-items: center;width: 100%;height: 50px;background-color: #00A763;color: #FFFFFF;font-size: 15px;}
+.sect06 ul li .cont_btn .btn_aca:last-child{margin-bottom: 0;}
+.sect06 ul li .cont_btn .btn_aca i{color: #FFFFFF;margin-left: 5px;font-size: 12px;}

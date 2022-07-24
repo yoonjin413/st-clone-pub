@@ -1,3 +1,10 @@
+/* overflow */
+.of-hidden{overflow: hidden;}
+
+/* position */
+.pos-relative{position: relative;}
+.pos-absolute{position: absolute;}
+
 /* text-align */
 .t-left{text-align: left;}
 .t-center{text-align: center;}

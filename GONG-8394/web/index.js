@@ -49,16 +49,16 @@ var onPlayerStateChange = function(event) {
     //console.log('data', event.data);
 
     // 재생 상태에 따라 썸네일 혹은 iframe 영상 호출 영역 설정
-    if(event.data < 1) {
-        // 재생 전 혹은 재생 종료
-        $('.cont_cover').css('display', 'block');
-        $('iframe#player').css('display', 'none');
-
-    } else {
-        // 재생 중 혹은 일시정시
-        $('.cont_cover').css('display', 'none');
-        $('iframe#player').css('display', 'block');
-    }
+    //if(event.data < 1) {
+    //    // 재생 전 혹은 재생 종료
+    //    $('.cont_cover').css('display', 'block');
+    //    $('iframe#player').css('display', 'none');
+    //
+    //} else {
+    //    // 재생 중 혹은 일시정시
+    //    $('.cont_cover').css('display', 'none');
+    //    $('iframe#player').css('display', 'block');
+    //}
 
     if(event.data == YT.PlayerState.PLAYING && !done) {
         //setTimeout(stopVideo, 6000);

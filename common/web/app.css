@@ -15,6 +15,10 @@
 .fl-right{float: right;}
 
 /* font-weight */
+.fw-400{font-weight: 400;}
+.fw-700{font-weight: 700;}
+.fw-900{font-weight: 900;}
+.fw-bolder{font-weight: bolder;}
 .fw-weight{font-weight: bold;}
 .fw-normal{font-weight: normal;}
 

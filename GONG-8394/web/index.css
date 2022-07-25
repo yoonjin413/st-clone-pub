@@ -1,6 +1,6 @@
 @import url("../../common/web/reset.css");
 @import url("../../common/web/app.css");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 
 * {font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
 
@@ -18,3 +18,24 @@ ul:after{content: "";display: block;clear: both;}
 .sect02 h4{font-size: 100px;color: #F0F0F0;mix-blend-mode: normal;opacity: .35;}
 .sect02 p{margin: 75px 0 35px;font-size: 40px;color: #FFFFFF;}
 .sect02 .inner > div{display: none;}
+
+.sect03{padding: 100px 0 182px;}
+.sect03 h4{font-size: 44px;}
+.sect03 h4 > *{display: block;font-size: 24px;}
+.sect03 h4 span{color: #F06601;margin-bottom: 24px;}
+.sect03 h4 span:not(.txt_tit){display: contents;font-size: 44px;}
+.sect03 h4 em{line-height: 35px;margin-top: 10px;}
+.sect03 .inner .cont_pass > em{font-family: 'Noto Sans',sans-serif;}
+.sect03 .inner > div > img{margin-top: 50px;}
+.sect03 .cont_with{margin: 110px 0;}
+.sect03 .cont_with h4{margin-bottom: 60px;}
+.sect03 .txt_sub{font-family:'Noto Sans',sans-serif;font-size: 32px;background: linear-gradient(92.7deg, #FE0523 13.3%, #FC0393 52.25%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;text-fill-color: transparent;}
+.sect03 .cont_user{width: 1100px;height: 349px;box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);border-radius: 8px;margin: 30px auto 109px;padding: 70px;}
+.sect03 .cont_user:last-child{height: 521px;}
+.sect03 .cont_user ul li{margin-bottom: 60px;flex-wrap: nowrap;align-items: center;}
+.sect03 .cont_user ul li:last-child{margin-bottom: 0;}
+.sect03 .cont_user ul li > div{margin: 0 35px;font-family: 'Noto Sans',sans-serif;font-size: 24px;}
+.sect03 .cont_user ul li > div > p{margin-bottom: 10px;}
+.sect03 .cont_user .cont_send{border-top: 1px solid #C3C3C3;bottom: 0;left: 0;width: 100%;border-radius: 0 8px 0 0;padding-left: 67px;}
+.sect03 .cont_user .cont_send p{display: contents;height: 76px;line-height: 3.3em;font-weight: 500;font-size: 22px;}
+.sect03 .cont_user .cont_send .btn_send{width: 134px;height: 76px;background: #545455;border-radius: 0 8px 8px 0;color: #FFFFFF;align-items: center;justify-content: center;font-size: 24px;}

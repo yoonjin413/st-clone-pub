@@ -36,6 +36,6 @@ ul:after{content: "";display: block;clear: both;}
 .sect03 .cont_user ul li:last-child{margin-bottom: 0;}
 .sect03 .cont_user ul li > div{margin: 0 35px;font-family: 'Noto Sans',sans-serif;font-size: 24px;}
 .sect03 .cont_user ul li > div > p{margin-bottom: 10px;}
-.sect03 .cont_user .cont_send{border-top: 1px solid #C3C3C3;bottom: 0;left: 0;width: 100%;border-radius: 0 8px 0 0;padding-left: 67px;}
-.sect03 .cont_user .cont_send p{display: contents;height: 76px;line-height: 3.3em;font-weight: 500;font-size: 22px;}
+.sect03 .cont_user .cont_send{border-top: 1px solid #C3C3C3;bottom: 0;left: 0;width: 100%;border-radius: 0 8px 0 0;padding-left: 67px;align-items: center;justify-content: space-between;}
+.sect03 .cont_user .cont_send p{display: contents;height: 76px;font-weight: 500;font-size: 22px;}
 .sect03 .cont_user .cont_send .btn_send{width: 134px;height: 76px;background: #545455;border-radius: 0 8px 8px 0;color: #FFFFFF;align-items: center;justify-content: center;font-size: 24px;}

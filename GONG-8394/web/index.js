@@ -1,7 +1,18 @@
 $(function() {
     setTimeout(function() {
-        console.log('this is GONG-8394');
+        //console.log('this is GONG-8394');
     }, 100);
+
+    $('.user_slider').bxSlider({
+        mode: "vertical",
+        ticker: true,
+        pager: false,
+        controls: false,
+        minSlides: 25,
+        maxSlides: 25,
+        speed: 60000,
+        slideMargin: 40
+    });
 
 });
 

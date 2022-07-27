@@ -51,3 +51,23 @@ ul:after{content: "";display: block;clear: both;}
 .sect04 .cont_cert p{font-family: 'Noto Sans',sans-serif;font-size: 24px;line-height: 1.5em;margin-top: 51px;background: linear-gradient(92.7deg, #FE0523 13.3%, #FC0393 52.25%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;text-fill-color: transparent;}
 .sect04 .cont_cert span{font-family: 'Noto Sans',sans-serif;font-size: 24px;color: #000000;}
 .sect04 .cont_cert img{margin-top: 14px;}
+
+.sect05{padding: 86px 0 160px;background: linear-gradient(180deg, #152048 0%, #030537 100%);}
+.sect05 .bx-wrapper{position: absolute;top: 0;left: 50%;transform: translateX(-50%);width: 100%;}
+.sect05 .bx-wrapper .user_slider > li{color: #30385C;font-size: 16px;overflow: hidden;white-space: nowrap;user-select: none;}
+.sect05 .bx-wrapper .user_slider > li > span{width: 150px; text-align: center; display: inline-block;color: #FFFFFF1A;}
+.sect05 .inner > h4{font-size: 44px;line-height: 1.5em;color: #FFFFFF;}
+.sect05 .inner > h4 strong{font-size: 54px;color: #FFFFFF;}
+.sect05 .inner > p{font-size: 24px;color: #FFFFFF;margin-top: 24px;line-height: 1.5em;}
+
+.sect05 .cont_grad{width: 888px;margin: 0 auto;}
+
+.sect05 .cont_grad .cont_print{margin: 60px 0 40px;}
+.sect05 .cont_grad .cont_print textarea{top: 242px;left: 226px;width: 465px;height: 62px;text-align: center;font-size: 22px;line-height: 1.35em;color: #404040;resize: none;border: 1px solid #C3C3C3;}
+.sect05 .cont_grad .cont_print p{top: 348px;left: 360px;font-size: 28px;letter-spacing: 0.18em;width: 150px;height: 36px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+
+.sect05 .cont_grad .cont_btn li{margin-right: 20px;}
+.sect05 .cont_grad .cont_btn li:last-child{margin-right: 0;}
+.sect05 .cont_grad .cont_btn a{width: 434px;height: 81px;border-radius: 65px;font-size: 28px;align-items: center;justify-content: center;}
+.sect05 .cont_grad .cont_btn .btn_prev{background: #FFFFFF;color: #000000;}
+.sect05 .cont_grad .cont_btn .btn_print{background: #0080DD;color: #FFFFFF;}

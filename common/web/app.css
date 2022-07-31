@@ -27,3 +27,17 @@
 .d-contents{display: contents;}
 .d-none{display: none;}
 .d-flex{display: flex;}
+.d-inline-block{display: inline-block;}
+.d-inline-flex{display: inline-flex;}
+
+/* color */
+.c-white{color: #FFFFFF;}
+.c-red{color: #FF0000;}
+.c-blue{color: #0000FF;}
+.c-black{color: #000000;}
+
+/* align-items */
+.ai-center{align-items: center;}
+
+/* justify-content */
+.jc-center{justify-content: center;}

@@ -1,0 +1,24 @@
+@import url("../../common/web/reset.css");
+/*@import url("../../common/web/app.css");*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
+
+body > div[class*="evt_"]{overflow: hidden;}
+.inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
+
+* ul{overflow: hidden;}
+* ul:after{content: "";display: block;clear: both;}
+
+.sect00{position: fixed;top: 73px;right: 12px;z-index: 999;}
+.sect00 .cont_ban{width: 120px;height: 160px;background: #FFFFFF;box-shadow: 7px 6px 13px rgba(0, 0, 0, 0.15);border-radius: 12px;padding: 22px 23px 21px 15px;}
+.sect00 .cont_ban strong.txt_tit{font-size: 14px;line-height: 1.4em;color: #FF007A;}
+.sect00 .cont_ban p{margin: 5px 0 15px;font-size: 14px;line-height: 1.4em;color: #000000;}
+.sect00 .cont_ban a{font-size: 12px;line-height: 1.4em;text-decoration: underline;color: #9E9E9E;}
+
+.sect01{padding: 70px 0 24px;background: #CFEEFF url(./img/sect01_bg.png) no-repeat center 0;height: 792px;position: relative;}
+.sect01 ul.cont_index li{width: 400px;float: left;}
+.sect01 ul.cont_index li *{text-align: center;color: #338EC0;font-size: 19px;line-height: 1.3em;}
+.sect01 ul.cont_index li sub{font-size: 10px;}
+.sect01 h3{margin: 33px 0 0 60px;}
+.sect01 .txt_note{font-size: 12px;line-height: 18px;color: #7A93A2;position: absolute;left: 193px;bottom: 24px;}

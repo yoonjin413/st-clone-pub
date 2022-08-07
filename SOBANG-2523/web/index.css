@@ -1,5 +1,4 @@
 @import url("../../common/web/reset.css");
-/*@import url("../../common/web/app.css");*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 *{font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
@@ -35,6 +34,9 @@ body > div[class*="evt_"]{overflow: hidden;}
 .sect02 ul li div p{font-size: 18px;line-height: 1.4em;}
 
 .sect03{padding: 100px 0;background: #F3F3F3;}
+.sect03 h4{color: #000000;font-weight: 900;font-size: 40px;line-height: 59px;}
+.sect03 h4 span{font-weight: 400;font-size: 28px;line-height: 41px;}
+.sect03 .txt_note{font-size: 12px;line-height: 18px;color: #545454;}
 
 .sect04{padding: 100px 0;background: #DFF3FF;}
 .sect04 .txt_soon{margin-top: 5px;font-size: 20px;line-height: 1.4em;}
@@ -45,3 +47,31 @@ body > div[class*="evt_"]{overflow: hidden;}
 .sect04 .cont_play .btn_play{width: 1200px;height: 645px;}
 .sect04 .cont_play .txt_play{position: absolute;top: 65px;left: 70px;font-weight: 900;font-size: 40px;line-height: 1.4em;color: #FFFFFF;text-align: left;}
 .sect04 .cont_play .icon_play{position: absolute;top: 273px;left: 550px;color: #656565;font-size: 106px;}
+
+.sect05{padding: 100px 0;background: url(./img/sect05_bg.png) no-repeat center 0, linear-gradient(180deg, #7B98FF 0%, #3D4EEC 100%);}
+.sect05 h4{margin: 10px 0 20px;color: #FFFFFF;font-size: 40px;line-height: 1.3em;}
+.sect05 h4 span{color: #FFFFFF;font-weight: 400;display: block;}
+.sect05 .txt_evt{font-weight: 700;font-size: 22px;line-height: 1.3em;color: #FFFFFF;}
+.sect05 .txt_evt span{font-weight: 400;font-size: 12px;color: #212E6D;display: block;}
+.sect05 .cont_gift{text-align: left;margin: -20px 130px 0;position: relative;}
+.sect05 .cont_gift .cont_lec{color: #FFFFFF;position: absolute;top: 100px;left: 205px;}
+.sect05 .cont_gift .cont_lec *{color: #FFFFFF;font-size: 16px;line-height: 1.1em;}
+.sect05 .cont_gift .cont_lec strong{font-size: 24px;display: block;margin-top: 10px;}
+.sect05 .cont_gift .btn_view{border: 1px solid #FFFFFF;border-radius: 3px;background: rgba(255, 255, 255, 0.2);padding: 5px 19px;display: block;margin-top: 15px;width: 150px;}
+.sect05 .cont_gift .btn_view p{color: #FFFFFF;font-size: 14px !important;}
+.sect05 .cont_gift .txt_gift{font-size: 12px;line-height: 1.1em;color: #1C2657;text-align: center;display: block;}
+.sect05 .cont_input{margin: 50px 0 20px;text-align: left;display: flex;align-items: center;flex-wrap: nowrap;}
+.sect05 .cont_input ul li{float: left;position: relative;}
+.sect05 .cont_input ul li:not(:first-child):before{content:''; display: block; width:1px; height:40px; background:#212121; position:absolute; top:50%; left:0; margin-top:-20px;}
+.sect05 .cont_input ul li > input[type=text]{height: 72px;border: 0;padding: 0 26px;font-size: 20px;line-height: 1em;}
+.sect05 .cont_input ul li > input[type=text]::placeholder{color: #88888880;}
+.sect05 .cont_input .txt_user{width: 182px;}
+.sect05 .cont_input .txt_comm{width: 811px;}
+.sect05 .cont_input .btn_event{width: 207px;height: 72px;display: flex;align-items: center;justify-content: center;font-weight: 900;font-size: 24px;line-height: 1.5em;color: #171717;background: #FFFFFF;}
+.sect05 .cont_comm{padding: 282px 0;background: #FFFFFF;display: flex;align-items: center;justify-content: center;align-content: center;font-size: 20px;line-height: 1.5em;color: #88888880;}
+
+.sect06{padding: 100px 0;background: linear-gradient(180deg, #FF76C0 0%, #FF5693 100%);}
+.sect06 h4{margin: 10px 0 40px;color: #FFFFFF;font-size: 40px;line-height: 1.3em;}
+.sect06 .cont_free{background: url(./img/sect06_img.png) no-repeat center 0;filter: drop-shadow(10px 21px 21px rgba(0, 0, 0, 0.15));height: 300px;padding: 72px 0;}
+.sect06 .cont_free p{font-weight: 900;font-size: 38px;line-height: 1.3em;background: linear-gradient(101.79deg, #FF5997 12.48%, #F02170 98.86%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;text-fill-color: transparent;margin-bottom: 33px;}
+.sect06 .cont_free a{width: 430px;height: 74px;background: linear-gradient(0deg, #000000, #000000), linear-gradient(91.46deg, #D5FF5C 5.9%, #00FF94 101.61%);border-radius: 50px;color: #FFFFFF;display: flex;justify-content: center;align-items: center;margin: 0 auto;}

@@ -20,5 +20,28 @@ body > div[class*="evt_"]{overflow: hidden;}
 .sect01 ul.cont_index li{width: 400px;float: left;}
 .sect01 ul.cont_index li *{text-align: center;color: #338EC0;font-size: 19px;line-height: 1.3em;}
 .sect01 ul.cont_index li sub{font-size: 10px;}
-.sect01 h3{margin: 33px 0 0 60px;}
+.sect01 h3{margin: 33px 0 0 15px;}
 .sect01 .txt_note{font-size: 12px;line-height: 18px;color: #7A93A2;position: absolute;left: 193px;bottom: 24px;}
+
+.sect02{padding: 100px 0;background: #0E1A21;}
+.sect02 h4{color: #FFFFFF;font-weight: 900;font-size: 40px;line-height: 59px;margin-bottom: 40px;}
+.sect02 h4 span{color: #FFFFFF;font-weight: 400;font-size: 28px;line-height: 41px;display: block;}
+.sect02 ul li{width: 282px;height: 262px;float: left;background: #FFFFFF;border-radius: 12px;margin-left: 24px;}
+.sect02 ul li:first-child{margin-left: 0;}
+.sect02 ul li div{margin: 38px auto 36px;}
+.sect02 ul li div *:not(i){display: block;color: #000000;}
+.sect02 ul li div img{margin: 0 auto;}
+.sect02 ul li div b{margin: 0 0 14px;font-size: 24px;line-height: 36px;}
+.sect02 ul li div p{font-size: 18px;line-height: 1.4em;}
+
+.sect03{padding: 100px 0;background: #F3F3F3;}
+
+.sect04{padding: 100px 0;background: #DFF3FF;}
+.sect04 .txt_soon{margin-top: 5px;font-size: 20px;line-height: 1.4em;}
+.sect04 h4{margin: 17px 0 7px;font-size: 40px;line-height: 1.3em;}
+.sect04 h4 p{font-weight: 400;}
+.sect04 span{font-size: 12px;line-height: 1em;color: #545454;}
+.sect04 .cont_play{margin-top: 40px;position: relative;}
+.sect04 .cont_play .btn_play{width: 1200px;height: 645px;}
+.sect04 .cont_play .txt_play{position: absolute;top: 65px;left: 70px;font-weight: 900;font-size: 40px;line-height: 1.4em;color: #FFFFFF;text-align: left;}
+.sect04 .cont_play .icon_play{position: absolute;top: 273px;left: 550px;color: #656565;font-size: 106px;}

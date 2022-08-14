@@ -52,6 +52,7 @@ ul:after{content: "";display: block;clear: both;}
 .sect03 .cont_agree ul li:first-child:after{display: none;}
 .sect03 .cont_agree ul li input[type="checkbox"]{width: 14px;height: 14px;vertical-align: middle;}
 .sect03 .cont_agree ul li label{color: #6B6B6B;cursor: pointer;}
+.sect03 .cont_agree li i{color: inherit;}
 
 .sect04{background: #1E1534;padding: 100px 0;}
 .sect04 ul li{margin-bottom: 30px}

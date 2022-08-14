@@ -16,6 +16,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
+        <script src="../../common/js/util.js"></script>
     </head>
 
     <body>
@@ -42,18 +43,18 @@
                     <li class="cont_more">
                         <p>
                             <strong>전화 상담<br>빠른 예약</strong>
-                            <span>자세히 보기</span>
+                            <a href="javascript:;" onclick="go_to_area('.sect03');">자세히 보기</a>
                         </p>
 
                         <p>
                             올바른 독학재수
                             <strong>2023<br>몰입독학반</strong>
-                            <span>자세히 보기</span>
+                            <a href="javascript:;" onclick="go_to_area('.sect04');">자세히 보기</a>
                         </p>
                     </li>
 
                     <li>
-                        <a href="javascript:;" class="btn_link fw-weight">
+                        <a href="javascript:;" class="btn_link fw-weight" onclick="go_to_area('body');">
                             TOP&nbsp;<i class="fa-solid fa-angle-up"></i>
                         </a>
                     </li>
@@ -64,7 +65,7 @@
             <div class="sect01">
                 <div class="inner">
                     <h3>
-                        <img src="./img/sect01_tit.png" alt="의심을 확신으로, 반전을 노려라 2023 PRE반수반">
+                        <img loading="lazy" src="./img/sect01_tit.png" alt="의심을 확신으로, 반전을 노려라 2023 PRE반수반">
                     </h3>
                 </div>
             </div>
@@ -126,24 +127,24 @@
             <!-- @ sect03 -->
             <div class="sect03">
                 <div class="inner">
-                    <img src="./img/sect03_tit.png" alt="전화 상담 빠른 예약!">
+                    <img loading="lazy" src="./img/sect03_tit.png" alt="전화 상담 빠른 예약!">
                     <h4 class="fw-normal">전화 번호를 남겨주시면 선택하신 학원에서 정확하고 친절하게 상담해 드리겠습니다!</h4>
 
                     <div class="cont_rsv">
                         <div class="cont_sel fl-left">
-                            <select class="" name="" id="">
+                            <select class="sel_aca" name="sel_aca" id="sel_aca">
                                 <option value="">학원선택</option>
                             </select>
                         </div>
 
                         <div class="cont_sel fl-left">
-                            <select class="" name="" id="">
+                            <select class="sel_part" name="sel_part" id="sel_part">
                                 <option value="">모집반 선택</option>
                             </select>
                         </div>
 
                         <div class="cont_sel cont_num fl-left">
-                            <select class="" name="" id="">
+                            <select class="sel_tel" name="sel_tel" id="sel_tel">
                                 <option value="010">010</option>
                                 <option value="011">011</option>
                                 <option value="016">016</option>
@@ -154,11 +155,11 @@
                         </div>
 
                         <div class="cont_num fl-left">
-                            <input type="number" class="" id="" name="">
+                            <input type="number" class="inp_tel2" id="inp_tel2" name="inp_tel2">
                         </div>
 
                         <div class="cont_num fl-left">
-                            <input type="number" class="" id="" name="">
+                            <input type="number" class="inp_tel3" id="inp_tel3" name="inp_tel3">
                         </div>
 
                         <a href="javascript:;" class="btn_rsv">전화 상담 빠른 예약</a>
@@ -166,7 +167,11 @@
 
                     <div class="cont_agree fl-right">
                         <ul>
-                            <li><input type="checkbox" class=""> 개인 정보 수집 / 이용 동의</li>
+                            <li>
+                                <label class="chk_agree">
+                                    <input type="checkbox" class="chk_agree" id="chk_agree" name="chk_agree"> 개인 정보 수집 / 이용 동의
+                                </label>
+                            </li>
                             <li>이용 약관 &gt;</li>
                         </ul>
                     </div>
@@ -178,20 +183,20 @@
                 <div class="inner">
                     <ul>
                         <li>
-                            <img src="./img/sect04_p01.png" alt="반전 POINT 1 3070 법칙으로 배운 것을 100% 나만의 것으로!">
+                            <img loading="lazy" src="./img/sect04_p01.png" alt="반전 POINT 1 3070 법칙으로 배운 것을 100% 나만의 것으로!">
                         </li>
                         <li>
-                            <img src="./img/sect04_p02.png" alt="반전 POINT 2 오전 자습/ 사이버 강의 수강 + 야간 정규수업 편성! 학교 걱정 없이 수능 개념 정복!">
+                            <img loading="lazy" src="./img/sect04_p02.png" alt="반전 POINT 2 오전 자습/ 사이버 강의 수강 + 야간 정규수업 편성! 학교 걱정 없이 수능 개념 정복!">
                         </li>
                         <li>
-                            <img src="./img/sect04_p03.png" alt="반전 POINT 3 6평 완벽 대비! Only For 프리반수 진도속성 커리큘럼">
+                            <img loading="lazy" src="./img/sect04_p03.png" alt="반전 POINT 3 6평 완벽 대비! Only For 프리반수 진도속성 커리큘럼">
                         </li>
                         <li class="cont_group">
-                            <img src="./img/sect04_group.png" class="img_group">
-                            <img src="./img/sect04_p04.png" alt="반전 POINT 4 계획으로 그치지 않는 학습 습관을 만들어주는 시스템">
+                            <img loading="lazy" src="./img/sect04_group.png" class="img_group">
+                            <img loading="lazy" src="./img/sect04_p04.png" alt="반전 POINT 4 계획으로 그치지 않는 학습 습관을 만들어주는 시스템">
                         </li>
                         <li>
-                            <img src="./img/sect04_p05.png" alt="반전 POINT 5 완벽히 학습에만 몰입할 수 있는 최신 시설!">
+                            <img loading="lazy" src="./img/sect04_p05.png" alt="반전 POINT 5 완벽히 학습에만 몰입할 수 있는 최신 시설!">
                         </li>
                     </ul>
                 </div>
@@ -201,13 +206,13 @@
             <div class="sect05">
                 <div class="inner">
                     <h4>
-                        <img src="./img/sect05_tit.png" alt="스듀x숨마를 경험한 선배들의 생생한 증언!">
+                        <img loading="lazy" src="./img/sect05_tit.png" alt="스듀x숨마를 경험한 선배들의 생생한 증언!">
                     </h4>
 
                     <ul class="of-hidden">
                         <li>
                             <div>
-                                <img src="./img/sect05_icon1.png" alt="좋은강의 OK!">
+                                <img loading="lazy" src="./img/sect05_icon1.png" alt="좋은강의 OK!">
 
                                 <p class="txt_note">
                                     저는 개인적으로 우리 학원의 선생님들이 진심으로 우리나라에서<br>
@@ -221,7 +226,7 @@
                         </li>
                         <li>
                             <div>
-                                <img src="./img/sect05_icon2.png" alt="생활관리 OK!">
+                                <img loading="lazy" src="./img/sect05_icon2.png" alt="생활관리 OK!">
 
                                 <p class="txt_note">
                                     7월달 즈음부터 체력 저하가 심해지면서 슬럼프가 왔던 적이 있습니다.<br>
@@ -235,7 +240,7 @@
                         </li>
                         <li>
                             <div>
-                                <img src="./img/sect05_icon3.png" alt="학습관리 OK!">
+                                <img loading="lazy" src="./img/sect05_icon3.png" alt="학습관리 OK!">
 
                                 <p class="txt_note">
                                     가장 좋았던 점은 무엇을 어떤 방식으로 공부해야 하는지<br>
@@ -249,7 +254,7 @@
                         </li>
                         <li>
                             <div>
-                                <img src="./img/sect05_icon4.png" alt="입시관리 OK!">
+                                <img loading="lazy" src="./img/sect05_icon4.png" alt="입시관리 OK!">
 
                                 <p class="txt_note">
                                     재종이다 보니깐 아무래도 또 예체능이라서 선배님들의 자료가 많잖아요.<br>
@@ -270,7 +275,7 @@
             <div class="sect06">
                 <div class="inner">
                     <h4>
-                        <img src="./img/sect06_tit.png" alt="의심을 확신으로, 반전을 노려라 2023 PRE반수반 지점별 모집안내">
+                        <img loading="lazy" src="./img/sect06_tit.png" alt="의심을 확신으로, 반전을 노려라 2023 PRE반수반 지점별 모집안내">
                     </h4>
 
                     <div class="cont_rec">

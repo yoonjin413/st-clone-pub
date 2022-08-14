@@ -18,7 +18,7 @@ ul:after{content: "";display: block;clear: both;}
 .sect_ban ul .cont_more p:not(:first-of-type){padding-top: 16px;margin-top: 0; border-top: 1px solid #E8E9ED;}
 .sect_ban ul .cont_more p > *{display: block;}
 .sect_ban ul .cont_more p > strong{font-size: 16px;margin-top: 6px;}
-.sect_ban ul .cont_more p > span{color: #757575;margin-top: 30px;cursor: pointer;}
+.sect_ban ul .cont_more p > a{color: #757575;margin-top: 30px;cursor: pointer;}
 .sect_ban ul li .btn_link{height: 54px;background: #1E1534;color: #FFFFFF;padding: 0 22px 0 20px;display: flex;align-items: center;flex-wrap: nowrap;justify-content: space-between;}
 .sect_ban ul li .btn_link i{color: #FFFFFF;}
 
@@ -48,9 +48,10 @@ ul:after{content: "";display: block;clear: both;}
 .sect03 .cont_agree{margin-top: 18px;}
 .sect03 .cont_agree ul li{position: relative;float: left;padding: 0 14px;color: #6B6B6B;font-size: 14px;}
 .sect03 .cont_agree ul li:last-child{padding-right: 0;cursor: pointer;}
-.sect03 .cont_agree ul li:after{position: absolute;top: 2px;left: 0;content: '';display: block;width: 1px;height: 14px;background: #6B6B6B;}
+.sect03 .cont_agree ul li:not(:first-child):before{position: absolute;top: 2px;left: 0;content: '';display: block;width: 1px;height: 14px;background: #6B6B6B;}
 .sect03 .cont_agree ul li:first-child:after{display: none;}
 .sect03 .cont_agree ul li input[type="checkbox"]{width: 14px;height: 14px;vertical-align: middle;}
+.sect03 .cont_agree ul li label{color: #6B6B6B;cursor: pointer;}
 
 .sect04{background: #1E1534;padding: 100px 0;}
 .sect04 ul li{margin-bottom: 30px}

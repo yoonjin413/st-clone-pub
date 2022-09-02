@@ -1,0 +1,40 @@
+@import url("../../common/web/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
+
+body > div[class*="evt_"]{overflow: hidden;}
+body > div[class*="evt_"] *{line-height: 1.3em;}
+.inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
+
+* ul{overflow: hidden;}
+* ul:after{content: "";display: block;clear: both;}
+
+.sect01{height: 1472px;background: #050505;position: relative;}
+
+.sect01 .sect01_ani{position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+.sect01 .a_01{background: #050505 url(./img/sect01_a01.png) no-repeat center 0;}
+.sect01 .a_02{background: url(./img/sect01_a02.png) no-repeat center 0;}
+.sect01 .a_03{top: 346px;text-align: center;}
+.sect01 .a_04{top: 15px;margin-left: 130px;text-align: center;}
+.sect01 .a_05{background: url(./img/sect01_a05.png) repeat-x center 0;}
+.sect01 .a_06{background: url(./img/sect01_a06.png) no-repeat center 0}
+.sect01 .a_07{top: 175px;left: 20%;color: #FFFFFF;font-weight: 100;font-size: 100px;margin-left: 20px;}
+.sect01 .a_08{top: 175px;left: 60%;color: #FFFFFF;font-weight: 900;font-size: 100px;margin-left: 20px;}
+.sect01 .a_09{top: 562px;font-size: 27px;text-align: center;color: #FFFFFF;mix-blend-mode: normal;text-shadow: 0 0 12px #000000;letter-spacing: 1.19em;}
+.sect01 .a_10{top: 614px;font-weight: 100;font-size: 64px;text-align: center;color: #FFFFFF;mix-blend-mode: normal;text-shadow: 0 0 24px #000000;}
+.sect01 .a_10 b{color: #FFFFFF;}
+.sect01 .a_11{top: 754px;font-size: 12px;text-align: center;color: #FFFFFF;opacity: .7;mix-blend-mode: normal;text-shadow: 0 0 10px #000000;}
+
+/*.sect01 .sect01_ani{opacity: 0;}*/
+/*.sect01 .a_01{animation: main_title 1.5s 1.2s forwards linear;}*/
+
+.sect01 .cont_quote{position: absolute;top: 777px;left: 0;right: 0;bottom: 0;text-align: center;}
+.sect01 .cont_quote .bx-wrapper{margin-top: 80px;}
+
+.sect01 .cont_review{position: absolute;top: 1140px;left: 0;right: 0;bottom: 0;}
+.sect01 .cont_review ul{display: flex;align-items: center;align-content: center;justify-content: center;overflow: hidden;}
+.sect01 .cont_review ul li{float: left;margin-left: 18px;}
+.sect01 .cont_review ul li:first-child{margin-left: 0;}
+/*.sect01 .cont_review > div {display: block;margin-left: 18px;}*/
+/*.sect01 .cont_review > div:first-child{margin-left: 0;}*/

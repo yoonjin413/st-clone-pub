@@ -37,6 +37,6 @@ $(function() {
         useCSS : 3000,
         speed : 40000,
         ticker : true,
-        tickerHover : true
+        //tickerHover : true
     });
 });

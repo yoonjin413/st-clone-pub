@@ -1,6 +1,6 @@
 $(function() {
     setTimeout(function() {
-        console.log('this is BUPGUM-1432');
+        //console.log('this is BUPGUM-1432');
 
         $('.tab_menu li:eq(0) a').trigger('click');
     }, 100);

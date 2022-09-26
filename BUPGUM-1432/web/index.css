@@ -44,6 +44,8 @@ ul:after{content: "";display: block;clear: both;}
 .sect04 .txt_why a{font-weight: 900;}
 
 .sect05{height: 878px;padding: 140px 0 80px;background: #F8F8FA url(./img/sect05_bg.png) no-repeat center 60px;}
+.sect05 .cont_hit{position: relative;}
+.sect05 .cont_hit .cont_slide{width: 1200px;height: 470px;border: 1px solid #D9D9D9;border-radius: 10px;position: absolute;top: 0;left: 0;}
 .sect05 .cont_hit .bx-wrapper{position: relative;}
 .sect05 .cont_hit .bx-wrapper .bx-controls-direction a{position: absolute;top: 45%;width: 58px;height: 58px;text-indent: -9999px;z-index: 10;}
 .sect05 .cont_hit .bx-wrapper .bx-controls-direction .bx-prev{left: -30px;background:url(./img/pg_prev.png) no-repeat center 0;}

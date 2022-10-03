@@ -165,7 +165,10 @@ em {
  */
 
 img {
-    border-style: none;
+    vertical-align: text-bottom;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Forms

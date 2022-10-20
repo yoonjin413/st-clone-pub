@@ -29,6 +29,6 @@ body > div[class*="evt_"] *{line-height: 1.3em;}
 
 .sect02 .txt_space{margin: 24px;display: grid;align-content: space-around;align-items: center;justify-items: stretch;font-size: 14px;line-height: 1.7em;color: #A0A0A0;}
 .sect02 .txt_space strong{margin-bottom: 10px;font-size: 16px;color: #2D2D2D;}
-.sect02 .txt_space a{margin-top: 15px;color: #555555;}
+.sect02 .txt_space a{margin-top: 15px;color: #555555;width: fit-content;}
 .sect02 .txt_space a i{margin-left: 8px;color: #0006EB;}
 

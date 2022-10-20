@@ -21,4 +21,14 @@ body > div[class*="evt_"] *{line-height: 1.3em;}
 .sect01 p{font-size: 12px;color: #A0A0A0;text-align: right;position: absolute;bottom: -45px;right: 0;}
 
 /* sect02 */
-.sect02{padding-top: 80px; }
+.sect02{padding: 80px 0; }
+
+.sect02 ul{overflow: revert;}
+.sect02 ul li{width: 384px;height: 160px;background: #FFFFFF;margin-left: 24px;border: 1px solid #F3F3F3;box-shadow: 0 8px 8px rgba(0, 0, 0, 0.12);border-radius: 2px;float: left;text-align: left;}
+.sect02 ul li:first-child{margin-left: 0;}
+
+.sect02 .txt_space{margin: 24px;display: grid;align-content: space-around;align-items: center;justify-items: stretch;font-size: 14px;line-height: 1.7em;color: #A0A0A0;}
+.sect02 .txt_space strong{margin-bottom: 10px;font-size: 16px;color: #2D2D2D;}
+.sect02 .txt_space a{margin-top: 15px;color: #555555;}
+.sect02 .txt_space a i{margin-left: 8px;color: #0006EB;}
+

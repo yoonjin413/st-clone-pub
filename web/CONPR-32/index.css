@@ -35,5 +35,5 @@ body > div[class*="evt_"] *{line-height: 1.3em;}
 /* sect03 */
 .sect03{padding: 0 0 80px;}
 
-.sect03 .cont_prof{height: 640px;background: #0B164A;-webkit-mask-image: linear-gradient(180deg, #3D4C96 28.37%, #707489 66.51%);mask-image: linear-gradient(180deg, #3D4C96 28.37%, #707489 66.51%);}
+.sect03 .cont_prof{height: 640px;background: #0B164A;}
 .sect03 .cont_prof h3{color: #FFFFFF;font-size: 28px;display: flex;margin: 40px 0;justify-content: center;flex-wrap: nowrap;align-content: center;}

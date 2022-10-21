@@ -90,3 +90,15 @@ div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bot
 .cont_bar .cont_data ul li span:before{content: attr(rel);position: absolute;top: 12px;left: 0;width: 100%;text-align: center;color: #FFFFFF;font-size: 18px;font-weight: 900;font-style: italic;}
 
 /* sect06 */
+.sect06{padding-bottom: 80px;}
+
+/* sect07 */
+.sect07{padding-bottom: 80px;}
+
+.sect07 .cont_inter{height: 400px;background: #FCFBFC;border: 1px solid #F3F3F3;border-radius: 2px;text-align: left;position: relative;}
+.sect07 .cont_inter > *{position: absolute;top: 40px;left: 240px;}
+.sect07 .cont_inter img{left: 40px;}
+.sect07 .cont_inter b{font-weight: 400;color: #555555;}
+.sect07 .cont_inter p{top: 76px;font-size: 14px;color: #A0A0A0;}
+.sect07 .cont_inter a{top: unset;bottom: 40px;font-size: 14px;color: #1C1C1C;}
+.sect07 .cont_inter a i{margin-left: 8px;color: #0006EB;}

@@ -7,7 +7,7 @@ $(function() {
         pie_draw(87, '.cont_pie:eq(1)');
     }, 100);
 
-    $('.sect04 ul').bxSlider({
+    let sect04_slide = $('.sect04 ul').bxSlider({
         pager: false,
         controls: false,
         auto: true,
@@ -16,6 +16,13 @@ $(function() {
         maxSlides: 3,
         slideWidth: 384,
         slideMargin: 24
+    });
+
+    let sect06_slide = $('.sect06 ul').bxSlider({
+        pager: false,
+        controls: false,
+        auto: true,
+        pause: 3000,
     });
 
     /* 원형 차트 script */
@@ -40,7 +47,4 @@ $(function() {
             "background": "conic-gradient(#172C8D 0% "+i+"%, #F2F2F2 "+i+"% 100%)"
         });
     };
-
-
-
 });

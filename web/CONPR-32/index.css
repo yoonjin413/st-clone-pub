@@ -38,7 +38,7 @@ div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bot
 .sect03{padding-bottom: 80px;}
 
 .sect03 .cont_prof{height: 640px;background: #0B164A;}
-.sect03 .cont_prof h3{color: #FFFFFF;font-size: 28px;display: flex;margin: 40px 0;justify-content: center;flex-wrap: nowrap;align-content: center;}
+.sect03 .cont_prof h3{color: #FFFFFF;font-size: 28px;margin: 40px 0 auto;display: flex;justify-content: center;flex-wrap: nowrap;align-content: center;}
 
 /* sect04 */
 .sect04{padding-bottom: 80px;}
@@ -58,18 +58,35 @@ div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bot
 .sect05 .cont_figure > p{padding: 40px 0 62px;font-weight: 700;line-height: 1.3em;color: #3D3F41;}
 
 .sect05 .cont_figure .cont_graph{margin: auto 80px auto 112px;}
-.sect05 .cont_figure .cont_graph .cont_circle{float: left;}
+.sect05 .cont_figure .cont_graph ul{overflow: unset;}
+.sect05 .cont_figure .cont_graph > ul > li{float: left;margin-left: 30px;}
+.sect05 .cont_figure .cont_graph > ul > li:first-child{margin-left: 0;}
 
-.cont_pie{position: relative;display: inline-block;width: 180px;height: 180px;border-radius: 50%;margin-left: 30px;}
-.cont_pie:first-child{margin-left: 0;}
-.cont_pie span{background: #FFFFFF;position: absolute;top: 50%;left: 50%;width: 160px;height: 160px;border-radius: 50%;text-align: center;font-size: 14px;font-weight: 900;transform: translate(-50%, -50%);display: grid;align-items: center;align-content: center;}
-.cont_pie span b{font-size: 30px;font-style: italic;line-height: 1.3em;}
+.sect05 .cont_figure .cont_graph .cont_circle{float: left;}
 
 .sect05 .cont_accu{padding: 25px 0 10px;background: #1C1C1C;border-radius: 2px;line-height: 1.2em;}
 .sect05 .cont_accu *{color: #FFFFFF;font-size: 20px;}
 .sect05 .cont_accu small{font-size: 11px;opacity: .5;}
 
+/* sect05 원형 차트 */
+.cont_pie{position: relative;display: inline-block;width: 180px;height: 180px;border-radius: 50%;margin-left: 30px;}
+.cont_pie:first-child{margin-left: 0;}
+.cont_pie span{background: #FFFFFF;position: absolute;top: 50%;left: 50%;width: 160px;height: 160px;border-radius: 50%;text-align: center;font-size: 14px;font-weight: 900;transform: translate(-50%, -50%);display: grid;align-items: center;align-content: center;}
+.cont_pie span b{font-size: 30px;font-style: italic;line-height: 1.3em;}
 
+/* sect05 막대 차트 */
+.cont_bar{display: flex;width: 560px;position: relative;border-bottom: 1px solid #D7D7D7;border-left: 1px solid #D7D7D7;}
+.cont_bar:after{content: '*19.12.08~학원 수강생 200명 대상 설문조사결과(노량진)';position: absolute;bottom: -55px;left: 0;width: 100%;text-align: right;font-size: 11px;color: #3D3F41;opacity: .6;}
 
+.cont_bar .cont_series{display: flex;flex-direction: column;flex-wrap: nowrap;height: 180px;}
+.cont_bar .cont_series > span{flex-grow: 1;flex-shrink: 1;flex-basis: auto;}
+.cont_bar .cont_series > span:last-child{display: flex;justify-content: space-between;flex-direction: column;}
 
+.cont_bar .cont_data{flex: 1;margin: 0 30px;}
+.cont_bar .cont_data ul{height: 100%;}
+.cont_bar .cont_data ul li{float: left; width: calc(100% / 6); height: 100%; position: relative}
+.cont_bar .cont_data ul li:after{content: attr(data-title);position: absolute;bottom: -30px;left: 0;width: 100%;text-align: center;color: #3D3F41;font-size: 12px;font-weight: 700;}
+.cont_bar .cont_data ul li span{position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 100%; background: linear-gradient(180deg, #8089B1 0%, #A8AFCE 100%);max-height: 100%;}
+.cont_bar .cont_data ul li span:before{content: attr(rel);position: absolute;top: 12px;left: 0;width: 100%;text-align: center;color: #FFFFFF;font-size: 18px;font-weight: 900;font-style: italic;}
 
+/* sect06 */

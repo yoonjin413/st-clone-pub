@@ -11,6 +11,8 @@ body > div[class*="evt_"] *{line-height: 1.5em;}
 * ul{overflow: hidden;}
 * ul:after{content: "";display: block;clear: both;}
 
+div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bottom: 16px;}
+
 /* sect01 */
 .sect01{padding: 24px 0;background: #1C1C1C;}
 
@@ -41,8 +43,6 @@ body > div[class*="evt_"] *{line-height: 1.5em;}
 /* sect04 */
 .sect04{padding-bottom: 80px;}
 
-.sect04 h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bottom: 16px;}
-
 .sect04 ul li{float: left;width: 384px;height: 360px;background: #FCFBFC;border: 1px solid #F3F3F3;border-radius: 2px;}
 .sect04 ul li:nth-child(3n+1){margin-left: 0;}
 
@@ -50,3 +50,26 @@ body > div[class*="evt_"] *{line-height: 1.5em;}
 .sect04 .cont_review strong{position: absolute;top: 0;left: 0;}
 .sect04 .cont_review p{font-size: 14px;color: #757575;position: absolute;top: 64px;left: 0;}
 .sect04 .cont_review span{font-size: 12px;color: #757575;position: absolute;top: 278px;left: 0;}
+
+/* sect05 */
+.sect05{padding-bottom: 80px;}
+
+.sect05 .cont_figure{margin: 16px 0;height: 400px;background: #FCFBFC;border-radius: 2px;}
+.sect05 .cont_figure > p{padding: 40px 0 62px;font-weight: 700;line-height: 1.3em;color: #3D3F41;}
+
+.sect05 .cont_figure .cont_graph{margin: auto 80px auto 112px;}
+.sect05 .cont_figure .cont_graph .cont_circle{float: left;}
+
+.cont_pie{position: relative;display: inline-block;width: 180px;height: 180px;border-radius: 50%;margin-left: 30px;}
+.cont_pie:first-child{margin-left: 0;}
+.cont_pie span{background: #FFFFFF;position: absolute;top: 50%;left: 50%;width: 160px;height: 160px;border-radius: 50%;text-align: center;font-size: 14px;font-weight: 900;transform: translate(-50%, -50%);display: grid;align-items: center;align-content: center;}
+.cont_pie span b{font-size: 30px;font-style: italic;line-height: 1.3em;}
+
+.sect05 .cont_accu{padding: 25px 0 10px;background: #1C1C1C;border-radius: 2px;line-height: 1.2em;}
+.sect05 .cont_accu *{color: #FFFFFF;font-size: 20px;}
+.sect05 .cont_accu small{font-size: 11px;opacity: .5;}
+
+
+
+
+

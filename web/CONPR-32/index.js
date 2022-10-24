@@ -1,12 +1,7 @@
 $(function() {
 
     setTimeout(function() {
-        console.log('this is CONPR-32');
-
-        draw_pie(95, '.cont_pie:eq(0)');
-        draw_pie(87, '.cont_pie:eq(1)');
-
-        draw_bar();
+        //console.log('this is CONPR-32');
     }, 100);
 
     let sect04_slide = $('.sect04 ul').bxSlider({
@@ -63,4 +58,30 @@ $(function() {
         }
     };
 
+
+    var isVisible = false;
+
+    $(window).on('scroll',function() {
+        if (checkVisible($('.cont_figure .cont_graph')) && !isVisible) {
+            draw_pie(95, '.cont_pie:eq(0)');
+            draw_pie(87, '.cont_pie:eq(1)');
+
+            draw_bar();
+
+            isVisible = true;
+        }
+    });
+
+    var checkVisible = function(elm, eval) {
+        eval = eval || "object visible";
+
+        var viewportHeight = $(window).height(), // Viewport Height
+            scrolltop = $(window).scrollTop(), // Scroll Top
+            y = $(elm).offset().top,
+            elementHeight = $(elm).height();
+
+        if(eval == "object visible") {
+            return ((y + 500 < (viewportHeight + scrolltop)));
+        }
+    };
 });

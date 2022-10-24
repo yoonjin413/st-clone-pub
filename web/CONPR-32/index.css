@@ -86,8 +86,8 @@ div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bot
 .cont_bar .cont_data ul{height: 100%;}
 .cont_bar .cont_data ul li{float: left; width: calc(100% / 6); height: 100%; position: relative}
 .cont_bar .cont_data ul li:after{content: attr(data-title);position: absolute;bottom: -30px;left: 0;width: 100%;text-align: center;color: #3D3F41;font-size: 12px;font-weight: 700;}
-.cont_bar .cont_data ul li span{position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 100%; background: linear-gradient(180deg, #8089B1 0%, #A8AFCE 100%);max-height: 100%;}
-.cont_bar .cont_data ul li span:before{content: attr(rel);position: absolute;top: 12px;left: 0;width: 100%;text-align: center;color: #FFFFFF;font-size: 18px;font-weight: 900;font-style: italic;}
+.cont_bar .cont_data ul li span{position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 50px; height: 0; background: linear-gradient(180deg, #8089B1 0%, #A8AFCE 100%);max-height: 100%;}
+.cont_bar .cont_data ul li span:before{content: attr(rel)'%';position: absolute;top: 12px;left: 0;width: 100%;text-align: center;color: #FFFFFF;font-size: 16px;font-weight: 900;font-style: italic;}
 
 /* sect06 */
 .sect06{padding-bottom: 80px;}

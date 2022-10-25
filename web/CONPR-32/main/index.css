@@ -1,4 +1,4 @@
-@import url("../../common/web/reset.css");
+@import url("../../../common/web/reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 *{font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}

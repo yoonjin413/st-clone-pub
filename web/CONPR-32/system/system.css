@@ -1,0 +1,12 @@
+@import url("../../../common/web/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
+
+body > div[class*="evt_"]{overflow: hidden;}
+body > div[class*="evt_"] *{line-height: 1.5em;}
+
+.inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
+
+* ul{overflow: hidden;}
+* ul:after{content: "";display: block;clear: both;}

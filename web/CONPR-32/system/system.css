@@ -13,11 +13,12 @@ body > div[class*="evt_"] *{line-height: 1.5em;}
 
 div[class^="sect"]:not(:last-child){padding-bottom: 80px;}
 
-div[class^="sect"] h4{margin-bottom: 16px;text-align: left;font-weight: 400;font-size: 24px;color: #2D2D2D;}
-div[class^="sect"] h4 small{font-size: 12px;}
-div[class^="sect"] h4 span{display: block;margin-top: 5px;font-size: 12px;color: #A0A0A0;}
+div[class^="sect"] .inner > h4{margin-bottom: 16px;text-align: left;font-weight: 400;font-size: 24px;color: #2D2D2D;}
+div[class^="sect"] .inner > h4 small{font-size: 12px;}
+div[class^="sect"] .inner > h4 span{display: block;margin-top: 5px;font-size: 12px;color: #A0A0A0;}
+div[class^="sect"] .inner > p{font-size: 16px;color: #A0A0A0;text-align: left;}
 
-/* sect01 */
+    /* sect01 */
 .sect01 .cont_service{margin-top: 58px;}
 .sect01 .cont_service ul{}
 .sect01 .cont_service ul li{float: left;text-align: left;width: 1200px;background: #FCFBFC;border: 1px solid #F3F3F3;border-radius: 2px;margin-left: 24px;}
@@ -34,6 +35,36 @@ div[class^="sect"] h4 span{display: block;margin-top: 5px;font-size: 12px;color:
 /* sect02 */
 
 /* sect03 */
+
+/* sect04 */
+
+/* sect05 */
+.sect05{padding-top: 80px;background: #FCFBFC;}
+
+.sect05 .cont_time{text-align: left;}
+.sect05 .cont_time ul{overflow: unset;}
+.sect05 .cont_time ul li{float: left;width: 588px;margin-left: 24px;background: #FFFFFF;border: 1px solid #F3F3F3;box-shadow: 0 24px 24px rgba(0, 0, 0, 0.12);border-radius: 8px;}
+.sect05 .cont_time ul li:first-child{margin-left: 0;}
+
+.sect05 .cont_time h5{margin: 24px auto 24px 24px;font-size: 20px;font-weight: 400;color: #2D2D2D;}
+
+.sect05 .cont_time table{font-size: 14px;border-spacing: unset;}
+.sect05 .cont_time table tr{height: 48px;}
+.sect05 .cont_time table tr th{text-indent: 24px;font-weight: 400;}
+.sect05 .cont_time table tr td{text-indent: 37px;}
+
+.sect05 .cont_time table thead{background: #FCFBFC;}
+.sect05 .cont_time table thead tr th{border-top: 1px solid #E8E9ED;border-bottom: 1px solid #E8E9ED;}
+.sect05 .cont_time table thead tr td{border-top: 1px solid #E8E9ED;border-bottom: 1px solid #E8E9ED;}
+.sect05 .cont_time table tbody tr.study{background: #FCFBFC;}
+.sect05 .cont_time table tbody tr th{color: #757575;}
+.sect05 .cont_time table tbody tr td{color: #2D2D2D;}
+
+/* sect06 */
+.sect06{padding-top: 80px;}
+
+/* sect07 */
+.sect07 h4 span{font-size: 15px !important;}
 
 /* cont_reward */
 .cont_reward{}
@@ -57,9 +88,7 @@ div[class^="sect"] h4 span{display: block;margin-top: 5px;font-size: 12px;color:
 .cont_more .cont_item{padding: 32px 32px 40px;}
 .cont_more .cont_item table{border-top: 1px solid #DADFE5;border-bottom: 1px solid #DADFE5;margin-top: 16px;text-align: center;font-size: 14px;color: #2D2D2D;border-spacing: unset;}
 .cont_more .cont_item table tr{height: 80px;}
-.cont_more .cont_item table thead tr{}
 .cont_more .cont_item table thead tr td{border-bottom: 1px solid #DADFE5;background: #FCFBFC;color: #757575;}
-.cont_more .cont_item table tbody tr{}
 .cont_more .cont_item table tbody tr td{border-bottom: 1px solid #F3F3F3;border-right: 1px solid #F3F3F3;}
 .cont_more .cont_item table tbody tr:last-child td{border-bottom: 0;}
 .cont_more .cont_item table tbody tr td:last-child{border-right: 0;}

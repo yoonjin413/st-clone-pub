@@ -16,6 +16,7 @@ div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bot
 /* sect01 */
 .sect01{padding: 24px 0;background: #1C1C1C;}
 
+.sect01 ul{display: flex;flex-wrap: wrap;}
 .sect01 ul *{color: #FFFFFF;font-size: 16px;}
 .sect01 ul li{float: left;width: 300px;}
 .sect01 ul li small{font-size: 12px;}
@@ -25,9 +26,8 @@ div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bot
 /* sect02 */
 .sect02{padding: 80px 0; }
 
-.sect02 ul{overflow: revert;}
-.sect02 ul li{width: 384px;height: 160px;background: #FFFFFF;margin-left: 24px;border: 1px solid #F3F3F3;box-shadow: 0 8px 8px rgba(0, 0, 0, 0.12);border-radius: 2px;float: left;text-align: left;}
-.sect02 ul li:first-child{margin-left: 0;}
+.sect02 ul{overflow: revert;display: flex;flex-wrap: wrap;gap: 24px;}
+.sect02 ul li{width: 384px;height: 160px;background: #FFFFFF;border: 1px solid #F3F3F3;box-shadow: 0 8px 8px rgba(0, 0, 0, 0.12);border-radius: 2px;float: left;text-align: left;}
 
 .sect02 .txt_space{margin: 24px;display: grid;align-content: space-around;align-items: center;justify-items: stretch;font-size: 14px;line-height: 1.7em;color: #A0A0A0;}
 .sect02 .txt_space strong{margin-bottom: 10px;font-size: 16px;color: #2D2D2D;}

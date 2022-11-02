@@ -20,12 +20,12 @@ div[class^="sect"] .inner > p{font-size: 16px;color: #A0A0A0;text-align: left;}
 
 /* sect01 */
 .sect01 .cont_service{margin-top: 58px;}
-.sect01 .cont_service ul{}
-.sect01 .cont_service ul li{float: left;text-align: left;width: 1200px;background: #FCFBFC;border: 1px solid #F3F3F3;border-radius: 2px;margin-left: 24px;}
+.sect01 .cont_service ul{display: flex;flex-wrap: wrap;gap: 24px;}
+.sect01 .cont_service ul li{float: left;text-align: left;width: 1200px;background: #FCFBFC;border: 1px solid #F3F3F3;border-radius: 2px;/*margin-left: 24px;*/}
 .sect01 .cont_service ul li.col_2{width: 588px;}
 .sect01 .cont_service ul li:first-child{margin-left: 0;}
 
-.sect01 .cont_offer{padding: 32px;height: 200px;}
+.sect01 .cont_offer{padding: 32px;}
 .sect01 .cont_offer p{font-size: 24px;color: #2D2D2D;margin-bottom: 16px;}
 
 .sect01 .cont_offer dd{margin-top: 5px;font-size: 14px;line-height: 1.7em;color: #757575;text-indent: 20px;position: relative;}
@@ -121,4 +121,4 @@ div[class^="sect"] .inner > p{font-size: 16px;color: #A0A0A0;text-align: left;}
 .cont_place .spot dl{margin-top: 32px;}
 .cont_place .spot dl dd{font-size: 14px;color: #A0A0A0;margin-top: 5px;display: flex;align-items: flex-start;flex-wrap: nowrap;align-content: center;}
 .cont_place .spot dl dd:first-child{margin-top: 0;}
-.cont_place .spot dl dd i{margin-right: 5px;color: #BBBEC2;}
+.cont_place .spot dl dd i{width: 20px;color: #BBBEC2;}

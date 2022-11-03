@@ -1,0 +1,24 @@
+@import url("../../common/web/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+*{font-family: 'Noto Sans KR',sans-serif;outline: none;box-sizing: border-box;color: #000000;letter-spacing: -0.04em;}
+
+body > div[class*="evt_"]{overflow: hidden;}
+body > div[class*="evt_"] *{line-height: 1.5em;}
+
+.inner{width: 1200px; margin: 0 auto; text-align: center;position: relative;}
+
+* ul{overflow: hidden;}
+* ul:after{content: "";display: block;clear: both;}
+
+div[class*="sect"] h4{text-align: left;font-size: 24px;color: #2D2D2D;margin-bottom: 16px;}
+
+/* sect01 */
+.sect01{padding: 30px 0 89px;background: #495657 url(./img/sect01_bg.png) no-repeat center bottom;background-blend-mode: multiply;}
+
+.sect01 span{color: #FFFFFF;font-size: 14px;opacity: .5;}
+.sect01 .txt_msg{margin-top: 19px;font-family: 'Noto Serif KR';font-size: 22px;color: #FFFFFF;display: flex;align-content: center;flex-direction: column;}
+.sect01 .txt_for{margin-top: 100px;font-size: 32px;letter-spacing: .47em;background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(106.5deg, #FDC023 26.31%, #F3D994 55.38%, #F1AF1E 87.44%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;text-fill-color: transparent;}
+.sect01 h3{margin-top: 25px;font-weight: 900;font-size: 100px;line-height: 1.1em !important;background: linear-gradient(90.64deg, #D1BE8B 0.06%, #FFF3D2 33.55%, #AF9457 64.25%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;text-fill-color: transparent;display: flex;flex-direction: column;}
+.sect01 h3 strong{letter-spacing: .15em;}
+.sect01 .txt_dday{margin-top: 70px;font-weight: 500;font-size: 24px;letter-spacing: .11em;background: linear-gradient(93.65deg, #C7B892 -8.58%, #F3D994 74.69%, #B4A27B 105.03%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;text-fill-color: transparent;}
